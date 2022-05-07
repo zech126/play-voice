@@ -1,15 +1,15 @@
 # 安装
-yarn add play-voice -S
+yarn add play-voice-tool -S
 
 或
 
-npm i play-voice -S
+npm i play-voice-tool -S
 
-npm install play-voice -S
+npm install play-voice-tool -S
 
 # 示例
 ```js
-  import { playVoice } from '@/utils/voiceBroadcast';
+  import { playVoice } from 'play-voice-tool';
 
   playVoice({
     text: `5月7日上午10:00，上海举行疫情防控工作新闻发布会，上海市副市长陈群、市教委主任王平、市卫生健康委副主任赵丹丹、
@@ -25,7 +25,7 @@ npm install play-voice -S
     }
   })
   // 或
-  import voice from '@/utils/voiceBroadcast';
+  import voice from 'play-voice-tool';
   voice.playVoice({
     text: `5月7日上午10:00，上海举行疫情防控工作新闻发布会，上海市副市长陈群、市教委主任王平、市卫生健康委副主任赵丹丹、
     浦东新区副区长吴强介绍本市疫情防控最新情况。`,
