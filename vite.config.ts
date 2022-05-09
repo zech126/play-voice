@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import vitePluginGenerateTypeFile from "vite-plugin-generatetypefile";
 
 const path = require('path');
 // 输出目录
@@ -6,7 +7,9 @@ const projectName = 'dist';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [],
+  plugins: [
+    vitePluginGenerateTypeFile()
+  ],
   root: process.cwd(),
   base: "./",
   //控制台输出的级别 info 、warn、error、silent

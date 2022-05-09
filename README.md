@@ -5,7 +5,7 @@ yarn add play-voice-tool -S
 
 npm i play-voice-tool -S
 
-npm install play-voice-tool -S
+cnpm install play-voice-tool -S
 
 # 示例
 ```js
